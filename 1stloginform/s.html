@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <h2>Payment Form</h2>
+        <p>NAME : <input type="text" id="name" value="" placeholder="Name" > </p>
+    <fieldset> 
+        <legend>Gender</legend>
+        <p>
+            Male <input type="radio" name="Gender" id="Male" placeholder="Male">
+            Female <input type="radio" name="Gender" id="Female" placeholder="Female">
+        </p>
+    </fieldset>
+    <p>
+        Address: <textarea name="Address" id="Address" rows="15" cols="30" placeholder="AddressS"></textarea>
+    </p>
+    <p> Email: <input type="email" name="email" id="email" placeholder="Email"></p>
+    <p>Pincode: <input type="number" name="Pincode" id="Pincode" placeholder="Pincode"></p>
+    <p>Card Type:
+        <select name="card_type" id="card_type" title="Card">
+            <option value="visa">--Select a card Type--</option>
+            <option value="master">Rupay</option>
+            <option value="Gpay">G-pay</option>
+            <!-- <option value="Phone_pay">Visa<option> -->
+            <option value="Dollar">Dollar</option>
+        </select>
+    </p>
+    <p>
+        <input type="submit" value="Pay Now!!">
+    </p>
+    
+    </form>
+</body>
+</html>
